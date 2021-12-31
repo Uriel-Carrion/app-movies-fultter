@@ -32,6 +32,8 @@ class Movie {
   bool video;
   double voteAverage;
   int voteCount;
+  //Se crea la propiedad para la animacón ya que tiene que ser un id único
+  String? heroId;
 
   get fullPosterImg {
     if (posterPath != null) {

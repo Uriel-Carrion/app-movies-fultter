@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Películasp',
+      title: 'Películas App',
       initialRoute: 'home',
       routes: {
         'home': (_) => HomeScreen(),
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
       },
       //Tema global de la aplicación
       theme: ThemeData.light()
-          .copyWith(appBarTheme: AppBarTheme(color: Colors.indigo)),
+          .copyWith(appBarTheme: AppBarTheme(color: Colors.black87)),
     );
   }
 }
